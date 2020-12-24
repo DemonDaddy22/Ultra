@@ -35,3 +35,66 @@ export const NavLogo = styled(Link)`
 export const NavIcon = styled(FaMagento)`
     margin-right: 0.5rem;
 `; 
+
+export const MobileIcon = styled.div`
+    display: none;
+    @media screen and (max-width: 992px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+`;
+
+export const NavMenu = styled.ul`
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: ${({ isClicked }) => isClicked ? 0 : '-100%'};
+        background-color: #101522;
+        transition: left 0.4s ease;
+    }
+`;
+
+export const NavItem = styled.li`
+    height: 5rem;
+    border-bottom: 4px solid transparent;
+    &:hover {
+        border-bottom: 4px solid #4b59f7;
+        transition: border-bottom 0.2s ease;
+    }
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        &:hover {
+            border-bottom-color: transparent;
+        }
+    }
+`;
+
+export const NavLink = styled(Link)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    @media screen and (max-width: 992px) {
+        justify-content: center;
+        padding: 2rem;
+        width: 100%;
+        &:hover {
+            color: #4b59f7;
+            transition: all 0.25s ease;
+        }
+    }
+`;
