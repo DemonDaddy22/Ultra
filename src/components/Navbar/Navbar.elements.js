@@ -34,7 +34,7 @@ export const NavLogo = styled(Link)`
 
 export const NavIcon = styled(FaMagento)`
     margin-right: 0.5rem;
-`; 
+`;
 
 export const MobileIcon = styled.div`
     display: none;
@@ -97,4 +97,26 @@ export const NavLink = styled(Link)`
             transition: all 0.25s ease;
         }
     }
+`;
+
+export const NavItemBtn = styled.li`
+    @media screen and (max-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 120px;
+    }
+`;
+
+export const NavBtnLink = styled(Link)`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
 `;

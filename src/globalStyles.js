@@ -21,4 +21,24 @@ export const Container = styled.div`
     }
 `;
 
+export const Button = styled.button`
+    border-radius: 4px;
+    background-color: ${({ primary }) => primary ? '#4B59F7' : '#0467FB'};
+    white-space: nowrap;
+    color: #FFFFFF;
+    padding: ${({ large }) => large ? '0.75rem 4rem' : '0.75rem 1.25rem'};
+    font-size: ${({ large }) => large ? '1.25rem' : '1rem'};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    &:hover {
+        background-color: ${({ primary }) => primary ? '#0467FB' : '#4B59F7'};
+    }
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        max-width: 400px;
+    }
+`;
+
 export default GlobalStyles;
