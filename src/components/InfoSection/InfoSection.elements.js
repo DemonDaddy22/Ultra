@@ -19,11 +19,11 @@ export const InfoColumn = styled.div`
     padding: 0 1rem;
     flex: 1;
     max-width: 50%;
-    flex-basis: 50%;
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 992px) {
         max-width: 100%;
         flex-basis: 100%;
         display: flex;
+        align-items: center;
         justify-content: center;
     }
 `;
@@ -31,8 +31,11 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding: 0 0 3.75rem;
-    @media only screen and (max-width: 768px) {
-        padding-bottom: 4rem;
+    @media only screen and (max-width: 992px) {
+        padding: 0 0 4rem 4rem;
+    }
+    @media only screen and (max-width: 600px) {
+        padding-left: 0;
     }
 `;
 
@@ -60,15 +63,27 @@ export const Subtitle = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
+    margin-top: -1rem;
     max-width: 555px;
     display: flex;
     justify-content: ${({ start }) => start ? 'flex-start' : 'flex-end'};
+    @media only screen and (max-width: 992px) {
+        margin-top: 0;
+    }
 `;
 
 export const Img = styled.img`
     border: 0;
     padding-right: 0;
-    max-width: 100%;
     display: inline-block;
-    max-width: 500px;
+    max-height: 500px;
+    @media only screen and (max-width: 992px) {
+        max-width: 100%;
+    }
+    @media only screen and (max-width: 1080px) {
+        max-width: 90%;
+    }
+    @media only screen and (min-width: 1080px) {
+        max-width: 100%;
+    }
 `;
