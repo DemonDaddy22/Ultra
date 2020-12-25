@@ -1,7 +1,7 @@
 import InfoImage1 from '../../images/undraw_revenue_3osh.svg';
-import InfoImage2 from '../../images/undraw_Business_plan_re_0v81.svg';
+import InfoImage2 from '../../images/undraw_collaborating_g8k8.svg';
 import InfoImage3 from '../../images/undraw_professor_8lrt.svg';
-import InfoImage4 from '../../images/undraw_informed_decision_p2lh.svg';
+import InfoImage4 from '../../images/undraw_business_deal_cpi9.svg';
 
 export const InfoSectionObj1 = {
     lightBackground: false,
