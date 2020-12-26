@@ -13,13 +13,15 @@ const Navbar = () => {
     window.addEventListener('resize', () => handleShowButton());
 
     const handleClick = () => setIsClicked(!isClicked);
+    
+    const handleLogoClick = () => setIsClicked(false);
 
     const handleShowButton = () => window.innerWidth <= 992 ? setShowButton(false) : setShowButton(true);
 
     return <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>
+                <NavLogo to='/' onClick={handleLogoClick}>
                     <NavIcon />
                 ULTRA
                 </NavLogo>
