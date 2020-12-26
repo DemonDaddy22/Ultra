@@ -13,11 +13,11 @@ const App = () => {
         <ScrollToTop />
         <Navbar></Navbar>
         <Switch>
-            <Route path='/services' exact component={Services} />
-            <Route path='/products' exact component={Products} />
-            <Route path='/sign-up' exact component={SignUp} />
-            <Route path='/' exact component={Home} />
-            <Redirect to='/' from='*' />
+            <Route path='/ultra/services' exact component={Services} />
+            <Route path='/ultra/products' exact component={Products} />
+            <Route path='/ultra/sign-up' exact component={SignUp} />
+            <Route path='/ultra' exact component={Home} />
+            <Redirect to='/ultra' from='*' />
         </Switch>
         <Footer />
     </Router>;
