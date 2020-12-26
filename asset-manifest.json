@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Ultra/static/js/main.303cca12.chunk.js",
-    "main.js.map": "/Ultra/static/js/main.303cca12.chunk.js.map",
+    "main.js": "/Ultra/static/js/main.f750f5d9.chunk.js",
+    "main.js.map": "/Ultra/static/js/main.f750f5d9.chunk.js.map",
     "runtime-main.js": "/Ultra/static/js/runtime-main.1db0fa56.js",
     "runtime-main.js.map": "/Ultra/static/js/runtime-main.1db0fa56.js.map",
-    "static/js/2.5ea06c61.chunk.js": "/Ultra/static/js/2.5ea06c61.chunk.js",
-    "static/js/2.5ea06c61.chunk.js.map": "/Ultra/static/js/2.5ea06c61.chunk.js.map",
+    "static/js/2.cc310da8.chunk.js": "/Ultra/static/js/2.cc310da8.chunk.js",
+    "static/js/2.cc310da8.chunk.js.map": "/Ultra/static/js/2.cc310da8.chunk.js.map",
     "index.html": "/Ultra/index.html",
-    "static/js/2.5ea06c61.chunk.js.LICENSE.txt": "/Ultra/static/js/2.5ea06c61.chunk.js.LICENSE.txt",
+    "static/js/2.cc310da8.chunk.js.LICENSE.txt": "/Ultra/static/js/2.cc310da8.chunk.js.LICENSE.txt",
     "static/media/icons8-team-6LZuSzSwso0-unsplash.98aaaf54.jpg": "/Ultra/static/media/icons8-team-6LZuSzSwso0-unsplash.98aaaf54.jpg",
     "static/media/undraw_business_deal_cpi9.b836a777.svg": "/Ultra/static/media/undraw_business_deal_cpi9.b836a777.svg",
     "static/media/undraw_collaborating_g8k8.2b7b296a.svg": "/Ultra/static/media/undraw_collaborating_g8k8.2b7b296a.svg",
@@ -15,7 +15,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1db0fa56.js",
-    "static/js/2.5ea06c61.chunk.js",
-    "static/js/main.303cca12.chunk.js"
+    "static/js/2.cc310da8.chunk.js",
+    "static/js/main.f750f5d9.chunk.js"
   ]
 }
