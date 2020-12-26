@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import { Navbar, Footer } from './components';
 import Home from './pages/Home';
 import GlobalStyles from './globalStyles';
@@ -17,6 +17,7 @@ const App = () => {
             <Route path='/services' exact component={Services} />
             <Route path='/products' exact component={Products} />
             <Route path='/sign-up' exact component={SignUp} />
+            <Redirect to='/' from='*' />
         </Switch>
         <Footer />
     </Router>;
