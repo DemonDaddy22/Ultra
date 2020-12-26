@@ -21,25 +21,25 @@ const Navbar = () => {
     return <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/' onClick={handleLogoClick}>
+                <NavLogo to='/ultra' onClick={handleLogoClick}>
                     <NavIcon />
                 ULTRA
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>{isClicked ? <FaTimes /> : <FaBars />}</MobileIcon>
                 <NavMenu onClick={handleClick} isClicked={isClicked}>
                     <NavItem>
-                        <NavLink to='/'>Home</NavLink>
+                        <NavLink to='/ultra'>Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to='/services'>Services</NavLink>
+                        <NavLink to='/ultra/services'>Services</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to='/products'>Products</NavLink>
+                        <NavLink to='/ultra/products'>Products</NavLink>
                     </NavItem>
                     <NavItemBtn>
-                        {showButton ? <NavBtnLink to='/sign-up'>
+                        {showButton ? <NavBtnLink to='/ultra/sign-up'>
                             <Button primary>SIGN UP</Button>
-                        </NavBtnLink> : <NavBtnLink to='/sign-up'>
+                        </NavBtnLink> : <NavBtnLink to='/ultra/sign-up'>
                                 <Button primary large>SIGN UP</Button>
                             </NavBtnLink>}
                     </NavItemBtn>

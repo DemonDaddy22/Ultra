@@ -18,53 +18,53 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItem>
                     <FooterLinkTitle>About Us</FooterLinkTitle>
-                    <FooterLink to='/'>How it works</FooterLink>
-                    <FooterLink to='/'>Testimonials</FooterLink>
-                    <FooterLink to='/'>Careers</FooterLink>
-                    <FooterLink to='/'>Investors</FooterLink>
-                    <FooterLink to='/'>Terms of Service</FooterLink>
+                    <FooterLink to='/ultra'>How it works</FooterLink>
+                    <FooterLink to='/ultra'>Testimonials</FooterLink>
+                    <FooterLink to='/ultra'>Careers</FooterLink>
+                    <FooterLink to='/ultra'>Investors</FooterLink>
+                    <FooterLink to='/ultra'>Terms of Service</FooterLink>
                 </FooterLinkItem>
                 <FooterLinkItem>
                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                    <FooterLink to='/'>Contact</FooterLink>
-                    <FooterLink to='/'>Support</FooterLink>
-                    <FooterLink to='/'>Destinations</FooterLink>
-                    <FooterLink to='/'>Sponsorships</FooterLink>
+                    <FooterLink to='/ultra'>Contact</FooterLink>
+                    <FooterLink to='/ultra'>Support</FooterLink>
+                    <FooterLink to='/ultra'>Destinations</FooterLink>
+                    <FooterLink to='/ultra'>Sponsorships</FooterLink>
                 </FooterLinkItem>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItem>
                     <FooterLinkTitle>Videos</FooterLinkTitle>
-                    <FooterLink to='/'>Submit Video</FooterLink>
-                    <FooterLink to='/'>Ambassadors</FooterLink>
-                    <FooterLink to='/'>Agency</FooterLink>
-                    <FooterLink to='/'>Influencer</FooterLink>
+                    <FooterLink to='/ultra'>Submit Video</FooterLink>
+                    <FooterLink to='/ultra'>Ambassadors</FooterLink>
+                    <FooterLink to='/ultra'>Agency</FooterLink>
+                    <FooterLink to='/ultra'>Influencer</FooterLink>
                 </FooterLinkItem>
                 <FooterLinkItem>
                     <FooterLinkTitle>Social</FooterLinkTitle>
-                    <FooterLink to='/'>Facebook</FooterLink>
-                    <FooterLink to='/'>Instagram</FooterLink>
-                    <FooterLink to='/'>YouTube</FooterLink>
-                    <FooterLink to='/'>Twitter</FooterLink>
-                    <FooterLink to='/'>LinkedIn</FooterLink>
+                    <FooterLink to='/ultra'>Facebook</FooterLink>
+                    <FooterLink to='/ultra'>Instagram</FooterLink>
+                    <FooterLink to='/ultra'>YouTube</FooterLink>
+                    <FooterLink to='/ultra'>Twitter</FooterLink>
+                    <FooterLink to='/ultra'>LinkedIn</FooterLink>
                 </FooterLinkItem>
             </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
             <SocialMediaWrapper>
-                <SocialLogo to='/'>
+                <SocialLogo to='/ultra'>
                     <SocialIcon />
                     ULTRA
                 </SocialLogo>
                 <WebisteRights>ULTRA ©️ 2020</WebisteRights>
                 <SocialIcons>
-                    <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                    <SocialIconLink href='/ultra' target='_blank' aria-label='Facebook'>
                         <FaFacebook />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                    <SocialIconLink href='/ultra' target='_blank' aria-label='Instagram'>
                         <FaInstagram />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label='YouTube'>
+                    <SocialIconLink href='/ultra' target='_blank' aria-label='YouTube'>
                         <FaYoutube />
                     </SocialIconLink>
                     <SocialIconLink href='https://twitter.com/Showstopper_RG' target='_blank' aria-label='Twitter'>
